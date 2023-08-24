@@ -71,9 +71,3 @@ For any issues, questions, or feedback, please create an issue on the [GitHub re
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Remember to replace `"your-username"` in the GitHub repository link with your actual GitHub username or organization name. Also, make sure to include the appropriate license file (e.g., `LICENSE`) in your project directory if you choose to use the MIT License.
-
-Feel free to customize this README to better suit your project's needs.
