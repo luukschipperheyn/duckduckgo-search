@@ -1,4 +1,4 @@
-const axios = require("axios");
+import axios from "axios";
 
 // Simulating the sleep function
 function sleep(ms) {
@@ -127,7 +127,7 @@ class SearchApi {
     }
   }
 
-  async *textApi(
+  async *text(
     keywords,
     region = "wt-wt",
     safesearch = "moderate",
@@ -284,4 +284,4 @@ class SearchApi {
   }
 }
 
-module.exports = new SearchApi();
+export default new SearchApi();

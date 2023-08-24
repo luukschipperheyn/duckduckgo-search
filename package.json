@@ -1,6 +1,7 @@
 {
   "name": "duckduckgo-search",
-  "version": "1.0.0",
+  "version": "1.0.5",
+  "type": "module",
   "description": "Search for words, documents, images, videos, news, maps and text translation using the DuckDuckGo.com search engine.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +18,7 @@
     "image-search"
   ],
   "author": "luuk schipperheijn (luuk@mot.studio)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/luukschipperheyn/duckduckgo-search/issues"
   },
