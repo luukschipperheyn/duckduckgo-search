@@ -1,6 +1,6 @@
 # duckduckgo-search
 
-Search for words, documents, images, videos, news, maps and text translation using the DuckDuckGo.com search engine. Ported to JS by ChatGPT
+Search for words, documents, images, videos, news, maps and text translation using the DuckDuckGo.com search engine. Ported https://github.com/deedy5/duckduckgo_search/ to JS by ChatGPT
 
 ## Installation
 
