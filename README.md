@@ -1,6 +1,8 @@
 # duckduckgo-search
 
-Search for words, documents, images, videos, news, maps and text translation using the DuckDuckGo.com search engine. Ported https://github.com/deedy5/duckduckgo_search/ to JS by ChatGPT
+Search for words, documents, images, videos, news, maps and text translation using the DuckDuckGo.com search engine. Ported https://github.com/deedy5/duckduckgo_search/ to JS using ChatGPT
+
+Please note that this module cannot be used in a browser because of duckduckgo CORS policy.
 
 ## Installation
 
@@ -15,7 +17,7 @@ npm install --save duckduckgo-search
 1. Import the module in your JavaScript file:
 
 ```javascript
-import duckduckgoSearch from "duckduckgo-search";
+const duckduckgoSearch = require("duckduckgo-search");
 ```
 
 2. Perform an image search using the `images` function:
@@ -47,7 +49,7 @@ Please note that the `duckduckgo-search` module returns results asynchronously u
 Here's a complete example of how you might use the `duckduckgo-search` module in your project:
 
 ```javascript
-import duckduckgoSearch from "duckduckgo-search";
+const duckduckgoSearch = require("duckduckgo-search");
 
 (async () => {
   // Image search

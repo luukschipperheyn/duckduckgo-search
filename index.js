@@ -1,4 +1,4 @@
-import axios from "axios";
+const axios = require("axios");
 
 // Simulating the sleep function
 function sleep(ms) {
@@ -284,4 +284,4 @@ class SearchApi {
   }
 }
 
-export default new SearchApi();
+module.exports = new SearchApi();
