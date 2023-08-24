@@ -1,0 +1,28 @@
+{
+  "name": "duckduckgo-search",
+  "version": "1.0.0",
+  "description": "Search for words, documents, images, videos, news, maps and text translation using the DuckDuckGo.com search engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luukschipperheyn/duckduckgo-search.git"
+  },
+  "keywords": [
+    "duckduckgo",
+    "search",
+    "text-search",
+    "image-search"
+  ],
+  "author": "luuk schipperheijn (luuk@mot.studio)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luukschipperheyn/duckduckgo-search/issues"
+  },
+  "homepage": "https://github.com/luukschipperheyn/duckduckgo-search#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
